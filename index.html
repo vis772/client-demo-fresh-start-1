@@ -40,23 +40,7 @@
     input[type=number]::-webkit-inner-spin-button{ -webkit-appearance: none; margin:0; }
   </style>
 </head>
-
-  <head>
-  <script>
-    (function () {
-      var correctPassword = "demo123"; // ← your custom password
-      var entered = prompt("Enter the password to view this demo site:");
-      if (entered !== correctPassword) {
-        document.write("<style>body{background:#0B1220;color:white;font-family:sans-serif;text-align:center;padding-top:20vh}</style><h1>🔒 Access Denied</h1><p>Incorrect password. Please refresh and try again.</p>");
-        throw new Error("Access Denied");
-      }
-    })();
-  </script>
-  <meta charset="utf-8" />
-  ...
-
-  
-  <body class="min-h-screen text-[color:var(--text)] bg-[radial-gradient(1200px_800px_at_10%_-10%,rgba(34,211,238,.12),transparent),radial-gradient(1000px_700px_at_110%_10%,rgba(163,230,53,.08),transparent),linear-gradient(180deg,rgba(0,0,0,.35),transparent),linear-gradient(180deg,var(--bg-start),var(--bg-end))]">
+<body class="min-h-screen text-[color:var(--text)] bg-[radial-gradient(1200px_800px_at_10%_-10%,rgba(34,211,238,.12),transparent),radial-gradient(1000px_700px_at_110%_10%,rgba(163,230,53,.08),transparent),linear-gradient(180deg,rgba(0,0,0,.35),transparent),linear-gradient(180deg,var(--bg-start),var(--bg-end))]">
   <!-- Demo Disclaimer -->
   <div class="w-full bg-[color:var(--warning)] text-black">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs sm:text-sm py-2 text-center">
